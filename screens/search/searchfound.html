@@ -1,0 +1,29 @@
+<html>
+
+    <head>
+        <link rel="stylesheet" href="search.css">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+    </head>
+    <body>
+        <h1 id="head">Look what's found!</h1>
+        <div id = 'formlost'>
+            <form action="./resultfound.py" method="GET">
+                <select name="category" id="search_categories">
+                    <option value="Keys">Keys</option>
+                    <option value="CampusCard">Campus Card</option>
+                    <option value="Earphones">Earphones</option>
+                </select>
+                <select name="time" id="search_categories">
+                    <option value="1week">1 week ago</option>
+                    <option value="2weeks">2 weeks ago</option>
+                    <option value="1month">1 month ago</option>
+                    <option value="2months">2 months ago</option>
+                </select>
+                <input class="button" type="submit" value="Search">
+            </form>
+        </div>
+
+
+
+    </body>
+</html>

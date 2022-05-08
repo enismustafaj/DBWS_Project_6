@@ -1,0 +1,117 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="../admin.css">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+    </head>
+    <body>
+        <div style="text-align: center;margin-top: 10%;">
+            <form action="../../scripts/replost.py" method="POST">
+                <label>Category:</label>
+                <select name="categories" id='cat'>
+                    <option value="Clothes" onclick="chnage()">Clothes</option>
+                    <option value="Earphones" onclick="chnage()">Earphones</option>
+                    <option value="CampusCard" onclick="chnage()">CampusCard</option>
+                    <option value="Keys" onclick="chnage()">Keys</option>
+                  </select><br>
+                <div class="grid-container">
+                    <div class="Earphones grid-item" >
+                        <label>Brand:</label>
+                        <input type="text" id = 'comp' name='brand'><br>
+                    </div>
+                    
+                    <div class="CampusCard grid-item" >
+                        <label>Matr. Number:</label>
+                        <input type="text" id = 'comp' name='matnum'><br>
+                    </div>
+                    
+                    <div class="CampusCard grid-item">
+                        <label>Name:</label>
+                        <input type="text" id = 'comp' name='name'><br>
+                    </div>
+                    
+                    
+                    <div class="Keys grid-item">
+                        <label>Attached Item:</label>
+                        <input type="text" id = 'comp' name='attach'><br>
+                    </div>
+                    
+                    <div class="Keys grid-item">
+                        <label>Room number:</label>
+                        <input type="text" id = 'comp' name='roomnum'><br>
+                    </div>
+
+                    <div class="Keys grid-item">
+                        <label>College:</label>
+                        <input type="text" id = 'comp' name='college'><br>
+                    </div>
+                    
+
+                    <div class="grid-item">
+                        <label>Size:</label>
+                        <input type="text" id = 'comp' name='size'><br>
+                    </div>
+
+                    <div class="grid-item">
+                        <label>Color:</label>
+                        <input type="text" id = 'comp' name='color'><br>
+                    </div>
+
+                    <div class="grid-item">
+                        <label>Lost date:</label>
+                        <input type="date" id = 'comp' name='ldate'><br>
+                    </div>
+
+                    <div class="grid-item">
+                        <label>Last seen:</label>
+                        <input type="text" id="comp" name='lseen'><br>
+                    </div>
+                    <div class="grid-item">
+                        <label>User:</label>
+                        <input type="text" id="comp" name='user'><br>
+                    </div>
+                    
+                </div>
+                <input class="button" type="submit" value="Submit">
+            </form>
+	
+        </div>
+
+        <script>
+            function chnage(){
+                var keys = document.getElementsByClassName("Keys");
+                for(var i = 0; i < keys.length; ++i){
+                    keys[i].style.pointerEvents = 'none';
+                    keys[i].style.opacity = '0.2';
+                }
+                var earphones = document.getElementsByClassName("Earphones");
+                for(var j = 0; j < earphones.length; ++j){
+                    earphones[j].style.pointerEvents = 'none';
+                    earphones[j].style.opacity = '0.2';
+                }
+                var campuscard = document.getElementsByClassName("CampusCard");
+                for(var j = 0; j < campuscard.length; ++j){
+                    campuscard[j].style.pointerEvents = 'none';
+                    campuscard[j].style.opacity = '0.2';
+                }
+                
+                
+
+                
+                var value = document.getElementById("cat").value.toString();
+                var val = document.getElementsByClassName(value);
+                for(var i = 0; i < val.length; ++i){
+                    val[i].style.pointerEvents = 'auto';
+                    val[i].style.opacity = '1';
+                }
+                
+                
+                
+                
+            }
+
+	function showPop(){
+		alert("Item ID inserted in the Reports table is linked to Item table.\nThe email inserted in Reports is linked to the email in Person table.");
+	}
+        </script>
+    </body>
+</html>

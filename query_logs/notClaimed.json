@@ -1,0 +1,62 @@
+[
+	{
+		"Specific_ITEM_ID" : 123,
+		"Lost_Date" : "0000-00-00",
+		"Last_Seen" : "null",
+		"Claimed" : 0,
+		"Found_Date" : "2020-01-25",
+		"Found_Location" : "Library",
+		"Image" : "null",
+		"Person_has_Lost_Item" : "none",
+		"Person_has_Found_Item" : "MollyRiley@jacobs-university.de",
+		"ITEM_ID" : 123,
+		"Category" : "keys",
+		"Color" : "orange",
+		"Size" : "small"
+	},
+	{
+		"Specific_ITEM_ID" : 389,
+		"Lost_Date" : "0000-00-00",
+		"Last_Seen" : "null",
+		"Claimed" : 0,
+		"Found_Date" : "2020-05-15",
+		"Found_Location" : "Mercator_Common_Room",
+		"Image" : "null",
+		"Person_has_Lost_Item" : "none",
+		"Person_has_Found_Item" : "KyeArnold@jacobs-university.de",
+		"ITEM_ID" : 389,
+		"Category" : "pant",
+		"Color" : "blue",
+		"Size" : "medium"
+	},
+	{
+		"Specific_ITEM_ID" : 435,
+		"Lost_Date" : "0000-00-00",
+		"Last_Seen" : "null",
+		"Claimed" : 0,
+		"Found_Date" : "2020-08-09",
+		"Found_Location" : "Krupp_A_Laundry",
+		"Image" : "null",
+		"Person_has_Lost_Item" : "none",
+		"Person_has_Found_Item" : "DarcieMcfarlane@jacobs-university.de",
+		"ITEM_ID" : 435,
+		"Category" : "shirt",
+		"Color" : "yellow",
+		"Size" : "medium"
+	},
+	{
+		"Specific_ITEM_ID" : 440,
+		"Lost_Date" : "0000-00-00",
+		"Last_Seen" : "null",
+		"Claimed" : 0,
+		"Found_Date" : "2020-09-14",
+		"Found_Location" : "Random_Bush",
+		"Image" : "null",
+		"Person_has_Lost_Item" : "none",
+		"Person_has_Found_Item" : "PenelopePeters@jacobs-university.de",
+		"ITEM_ID" : 440,
+		"Category" : "keys",
+		"Color" : "blue",
+		"Size" : "small"
+	}
+]

@@ -1,0 +1,112 @@
+[
+	{
+		"ITEM_ID" : 399,
+		"Category" : "shirt",
+		"Color" : "green",
+		"Size" : "large",
+		"Given_Name" : "Christa",
+		"Surname" : "Brady",
+		"Status" : "lost",
+		"email" : "ChristaBrady@jacobs-university.de",
+		"Person_HAS_ID" : 399
+	},
+	{
+		"ITEM_ID" : 435,
+		"Category" : "shirt",
+		"Color" : "yellow",
+		"Size" : "medium",
+		"Given_Name" : "Darcie",
+		"Surname" : "Mcfarlane",
+		"Status" : "found",
+		"email" : "DarcieMcfarlane@jacobs-university.de",
+		"Person_HAS_ID" : 435
+	},
+	{
+		"ITEM_ID" : 421,
+		"Category" : "keys",
+		"Color" : "green",
+		"Size" : "small",
+		"Given_Name" : "Eila",
+		"Surname" : "Faulkner",
+		"Status" : "lost",
+		"email" : "EilaFaulkner@jacobs-university.de",
+		"Person_HAS_ID" : 421
+	},
+	{
+		"ITEM_ID" : 389,
+		"Category" : "pant",
+		"Color" : "blue",
+		"Size" : "medium",
+		"Given_Name" : "Kye",
+		"Surname" : "Arnold",
+		"Status" : "found",
+		"email" : "KyeArnold@jacobs-university.de",
+		"Person_HAS_ID" : 389
+	},
+	{
+		"ITEM_ID" : 38,
+		"Category" : "keys",
+		"Color" : "orange",
+		"Size" : "small",
+		"Given_Name" : "Molly",
+		"Surname" : "Riley",
+		"Status" : "lost",
+		"email" : "MollyRiley@jacobs-university.de",
+		"Person_HAS_ID" : 38
+	},
+	{
+		"ITEM_ID" : 123,
+		"Category" : "keys",
+		"Color" : "orange",
+		"Size" : "small",
+		"Given_Name" : "Molly",
+		"Surname" : "Riley",
+		"Status" : "found",
+		"email" : "MollyRiley@jacobs-university.de",
+		"Person_HAS_ID" : 123
+	},
+	{
+		"ITEM_ID" : 0,
+		"Category" : "none",
+		"Color" : "none",
+		"Size" : "none",
+		"Given_Name" : "none",
+		"Surname" : "none",
+		"Status" : "none",
+		"email" : "none",
+		"Person_HAS_ID" : 0
+	},
+	{
+		"ITEM_ID" : 440,
+		"Category" : "keys",
+		"Color" : "blue",
+		"Size" : "small",
+		"Given_Name" : "Penelope",
+		"Surname" : "Peters",
+		"Status" : "found",
+		"email" : "PenelopePeters@jacobs-university.de",
+		"Person_HAS_ID" : 440
+	},
+	{
+		"ITEM_ID" : 201,
+		"Category" : "campus_card",
+		"Color" : "white",
+		"Size" : "small",
+		"Given_Name" : "Salma",
+		"Surname" : "Henry",
+		"Status" : "lost",
+		"email" : "SalmaHenry@jacobs-university.de",
+		"Person_HAS_ID" : 201
+	},
+	{
+		"ITEM_ID" : 267,
+		"Category" : "campus_card",
+		"Color" : "white",
+		"Size" : "small",
+		"Given_Name" : "Tina",
+		"Surname" : "Kennedy",
+		"Status" : "lost",
+		"email" : "TinaKennedy@jacobs-university.de",
+		"Person_HAS_ID" : 267
+	}
+]

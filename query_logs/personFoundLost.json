@@ -1,0 +1,16 @@
+[
+	{
+		"Given_Name" : "Molly",
+		"Surname" : "Riley",
+		"Status" : "lost",
+		"email" : "MollyRiley@jacobs-university.de",
+		"Person_HAS_ID" : 38
+	},
+	{
+		"Given_Name" : "Molly",
+		"Surname" : "Riley",
+		"Status" : "found",
+		"email" : "MollyRiley@jacobs-university.de",
+		"Person_HAS_ID" : 123
+	}
+]

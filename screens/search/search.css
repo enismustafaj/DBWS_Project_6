@@ -1,0 +1,99 @@
+body{
+    background-color: gainsboro;
+
+}
+
+.navbar{
+    list-style-type: none;
+    margin: 0;
+    padding-right: 60px;
+    overflow: hidden;
+    background-color:transparent;
+}
+
+.navbar li{
+    float:right
+}
+.navbar img{
+    float: left;
+}
+
+.navbar li a{
+    display: block;
+    color: gray;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+.navbar li a:hover {
+    background-color: rgb(214, 214, 214);
+  }
+
+  #head{
+    font-family: Chilanka;
+    text-align: center;
+    padding-top: 30px;
+  }
+.button{
+    font-family: Chilanka;
+    border: none;
+    text-align: center;
+    font-size: 16;
+    width: 20;
+    height: 40;
+    margin-top: 15px;
+    border-radius: 8px;
+    background-color: #e7e7e7;
+    width: 5%;
+}
+  #formlost{
+      text-align: center;
+      margin-top: 13%;
+  }
+  #search_categories
+  {
+    font-size: 13px;
+    padding: 10px 8px 10px 14px;
+    background:lightgray;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    position: relative;
+  }
+  .users{
+    padding-top:5%;
+    padding-left:5%;
+}
+.comp{
+
+     margin: 30;
+     border-width: 1;
+     border-color: rgb(146, 144, 144);
+     width: 45%;
+     border: 0;
+     border-bottom: 2px solid gray;
+     outline: 0;
+     font-size: 16;
+     padding: 7px 0;
+     background: transparent;
+     transition: border-color 0.2s;
+ }
+ .detail{
+    color:black;
+    font-family: cursive;
+    font-size: larger;
+    float:right;
+    padding-right:10%
+}
+.inline{
+    display: inline;
+    font-family: Chilanka;
+    text-decoration-color: lightslategrey;
+    font-size: xx-large;
+
+}
+#imagename{
+    font-size:20px;
+    padding-left: 5%;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color:darkgray
+}
